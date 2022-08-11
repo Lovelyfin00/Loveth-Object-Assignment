@@ -127,6 +127,9 @@ blockquote, small{
 }
 
 @media screen and (min-width:769px){
+    .container{
+        width: 80%;
+    }
     /* Bigger testimonial section */
     .bigger-testimonial{
         width: 68%;
@@ -146,5 +149,14 @@ blockquote, small{
     /* Smaller testimonial section */
     .smaller-testimonial{
         width: 29%;
+    }
+}
+@media screen and (min-width:1025px){
+    .bigger-testimonial{
+        width: 65%;
+    }
+    /* Smaller testimonial section */
+    .smaller-testimonial{
+        width: 31%;
     }
 }
