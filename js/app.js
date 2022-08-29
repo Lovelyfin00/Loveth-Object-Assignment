@@ -3,9 +3,11 @@ function calculate () {
   let multiply = 4 * 5;
   console.log(multiply)
 
-  let divide = 14 * 2;
+  let divide = 14 / 2;
   console.log(divide)
 }
+
+calculate()
 
 
 // Method 2
