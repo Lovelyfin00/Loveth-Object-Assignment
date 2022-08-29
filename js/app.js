@@ -11,7 +11,7 @@ function calculate () {
 // Method 2
 function calculator (a, b, operand){
   if (operand === '+' || operand === "addition") return a + b;
-  if (operand === '-' || operand === "multiply") return a - b;
+  if (operand === '-' || operand === "subtract") return a - b;
 }
 
 console.log(calculator(10, 10, "+"));
